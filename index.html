@@ -1,47 +1,247 @@
 <!DOCTYPE html>
-<LINK REL=StyleSheet HREF="css/styles.css" TYPE="text/css" MEDIA=screen>
 <html>
-  <head>
-    <title>Portafolio personal</title>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#about">Acerca de mi</a></li>
-          <li><a href="#experience">Experiencia</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#contact">Contacto</a></li>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Christian Cuesta</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div>
+        <img src="images/firma.png" alt="firma" width="" height="">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Sobre Mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trayectoria">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>Acerca de mi</h2>
-        <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me apasiona el desarrollo de aplicaciones web y siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer.</p>
-      </section>
-      <section id="experience">
-        <h2>Experiencia</h2>
-      </section>
-      <section id="projects">
-        <h2>Proyectos</h2>
-        <ul>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contacto</h2>
-        <p>Si desea contactar conmigo, puede enviar un correo electrónico a <a href="mailto:ejemplo@ejemplo.com">ejemplo@ejemplo.com</a> o utilizar el siguiente formulario de contacto.</p>
-        <form action="submit-form.php" method="post">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name"><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br>
-          <label for="message">Mensaje:</label>
-          <textarea id="message" name="message"></textarea><br>
-          <input type="submit" value="Enviar">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <div class="jumbotron">
+        <div class="hero d-flex align-items-center">
+          <div class="description-container">
+            <p>Combinar mi pasión por la programación con mi interés por la tecnología y resolver problemas
+              complejos. En mi tiempo libre disfrutar de los deportes y mantenerme activo. Estoy emocionado por
+              seguir creciendo y aprendiendo en esta carrera y ver cómo puedo aplicar mis habilidades en el futuro.
+            </p>
+          </div>
+          <div class="image-container">
+            <img src="images/PERFIL.png" alt="perfil">
+          </div>
+        </div>
+        <div class="redes-container">
+          <hr class="my-4 text-center">
+          <a href="https://www.facebook.com/christian.cuesta1" target="_blank" class="btn btn-primary m-2">
+            <i class="fab fa-facebook-f fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/chriscuesta02" target="_blank" class="btn btn-info m-2">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/chriscuesta1/" target="_blank" class="btn btn-danger m-2">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/christian-cuesta/" target="_blank" class="btn btn-primary m-2">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+          <a href="https://github.com/ChrisCuesta" target="_blank" class="mibtn">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo"
+              width="50" height="50"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>En qué puedo trabajar?</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/py.png" alt="Python" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/java.png" alt="Java" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/c.png" alt="C" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/c++.png" alt="C++" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/Bootstrap.png" alt="Bootstrap"
+                onmouseout="this.style.transform='scale(1.2)'" onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/html5.png" alt="HTML" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/css3.png" alt="CSS" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/git.png" alt="Git" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/markdown.png" alt="Markdown"
+                onmouseout="this.style.transform='scale(1.2)'" onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/vscode.png" alt="VS Code"
+                onmouseout="this.style.transform='scale(1.2)'" onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="circular-image">
+              <img class="img-skill" src="images/mysql.png" alt="MySQL" onmouseout="this.style.transform='scale(1.2)'"
+                onmouseover="this.style.transform='scale(1)'">
+            </div>
+          </div>
+    </section>
+
+    <section id="trayectoria">
+      <div class="jumbotron">
+        <h2 class="section-title">Educación</h2>
+        <div class="education-container">
+          <div class="education-item">
+            <div class="education-logo">
+              <img src="images/uta.png" alt="Universidad Técnica de Ambato Logo">
+            </div>
+            <div class="education-details">
+              <h3 class="degree">Ingeniería en Software</h3>
+              <h4 class="university">Universidad Técnica de Ambato</h4>
+              <p class="date">2018 - 2023</p>
+              <p class="field-of-study">Facultad de Ingeniería en Sistemas, Electrónica e Industrial</p>
+              <p class="description">
+                Los ingenieros de Software se especializan en el diseño y el desarrollo de aplicaciones software, y
+                están
+                formados principalmente en matemáticas y Ciencias Computacionales; y los conocimientos y habilidades
+                adquiridas a partir de esta formación los aplican en el diseño, construcción y despliegue de esas
+                aplicaciones.
+              </p>
+              <a href="https://fisei.uta.edu.ec/v4.0/index.php/informacion-software" target="_blank"
+                class="visit-btn">Visitar sitio web</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <div class="container">
+        <form action="php/enviar_formulario.php" method="post">
+          <div class="form-group">
+            <p> </p>
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <p> </p>
         </form>
-      </section>
-    </main>
-    <footer>
-      <p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Christian Cuesta</p>
+  </footer>
+
+  <script>const imgs = document.querySelectorAll('.img-skill');
+    imgs.forEach(img => {
+      img.addEventListener('mouseover', function () {
+        this.style.width = "200px";
+        this.style.height = "200px";
+        const name = this.getAttribute('alt');
+        const tooltip = document.createElement('div');
+        tooltip.innerText = name;
+        tooltip.style.backgroundColor = "#2A84BF";
+        tooltip.style.color = "white";
+        tooltip.style.position = "absolute";
+        tooltip.style.bottom = "100%";
+        tooltip.style.left = "50%";
+        tooltip.style.transform = "translateX(-50%)";
+        tooltip.style.padding = "5px 10px";
+        tooltip.style.borderRadius = "5px";
+        this.parentNode.appendChild(tooltip);
+      });
+      img.addEventListener('mouseout', function () {
+        this.style.width = "100px";
+        this.style.height = "100px";
+        this.parentNode.removeChild(this.nextSibling);
+      });
+    });</script>
+
+</body>
+
+</html>
