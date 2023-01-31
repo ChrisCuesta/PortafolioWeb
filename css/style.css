@@ -333,7 +333,15 @@ textarea {
     margin-bottom: 20px;
 }
 
-
+input[type="submit"] {
+    background-color: #2A84BF; /* Fondo verde */
+    color: white; /* Color de texto blanco */
+    padding: 12px 20px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Muestra un cursor de puntero */
+    float: center; /* Flotar a la derecha */
+  }
 
 button.btn.btn-primary {
     background-color: #2A84BF;
