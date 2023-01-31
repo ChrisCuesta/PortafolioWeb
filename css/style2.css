@@ -1,0 +1,426 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: bold;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.navbar img {
+    margin-left: 3em;
+}
+
+.navbar-toggler {
+    color: #2A84BF
+}
+
+.nav-link {
+    color: #2A84BF;
+    padding: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-decoration: none;
+
+}
+
+.navbar-brand:hover {
+    color: #0070c9;
+}
+
+.nav-item {
+    color: #2A84BF;
+    text-decoration: #0070c9;
+}
+
+#inicio {
+    background-color: #ffffff;
+    padding: 5px 0;
+}
+
+.hero {
+    display: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    text-align: center;
+    width: 60%;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.redes-container {
+    align-items: center;
+    text-align: center;
+}
+
+.description-container p {
+    font-size: 40px;
+    color: #2A84BF;
+    font-style: oblique;
+    animation: fadeIn 2s ease-in-out;
+    padding: 2em;
+}
+
+.image-container img {
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    animation: fadeIn 2s ease-in-out;
+    border-style: double;
+    border-color: #2A84BF;
+}
+
+.btn .mibtn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    animation: bounceIn 2s ease-in-out;
+    border-radius: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.container-fluid {
+    background-color: #f2f2f2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.img-skill {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.img-skill:hover {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#skills .mb-4 img {
+    width: 100px;
+    height: 100px;
+    padding: 0.2em;
+    border-style: double;
+    border-color: #2A84BF;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Estilos para la sección de Educación */
+#trayectoria {
+    padding: 70px 0;
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.education-item {
+    width: 70%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.education-logo {
+    width: 40%;
+    text-align: center;
+}
+
+.education-logo img {
+    max-width: 100%;
+}
+
+.education-details {
+    width: 60%;
+    padding-left: 10px;
+}
+
+.degree {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.university {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.field-of-study img {
+    width: 350px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.education-container .education-item .visit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2A84BF;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.education-container .education-item .visit-btn:hover {
+    background-color: #2A84BF;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#contacto {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #2A84BF;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #2A84BF;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #2A84BF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+button.btn.btn-primary {
+    background-color: #2A84BF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: center;
+    margin-top: 20px;
+    width: max-content;
+}
+
+.btn-primary:hover {
+    background-color: darkblue;
+}
+
+footer {
+    text-align: right;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #2A84BF;
+    transition: 0.3s;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #2A84BF;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 24px;
+}
+
+#proyectos h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#proyectos .btn {
+    background-color: #2A84BF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: center;
+    margin-top: 20px;
+    width: max-content;
+}
+
+#cursos h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#cursos .btn {
+    background-color: #2A84BF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: center;
+    margin-top: 20px;
+    width: max-content;
+}
