@@ -47,6 +47,17 @@ header {
     padding: 5px 0;
 }
 
+#inicio h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A84BF;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+
 .hero {
     display: wrap;
     justify-content: center;
@@ -56,6 +67,18 @@ header {
 .description-container {
     text-align: center;
     width: 60%;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #2A84BF;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: none;
 }
 
 .image-container {
